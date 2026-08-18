@@ -1,0 +1,35 @@
+name: Feature request
+description: Propose an improvement or new capability.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What do you want to achieve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Why is this needed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: done_when
+    attributes:
+      label: Done when
+      description: How will you know this is complete?
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context, ideas, constraints, or references.
+    validations:
+      required: false
